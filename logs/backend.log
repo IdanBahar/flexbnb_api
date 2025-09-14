@@ -166,3 +166,26 @@
 11.9.2025, 0:27:06 - INFO - User signup: | {"_id":"68c1ed2a3663b50efb262425","email":"a","username":"a","fullname":"a","imgUrl":"https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757539626427}
 11.9.2025, 0:28:15 - DEBUG - auth.route - new account created: {"_id":"68c1ed6e3663b50efb262426","email":"s","username":"ss","fullname":"s","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757539694987}
 11.9.2025, 0:28:15 - INFO - User signup: | {"_id":"68c1ed6e3663b50efb262426","email":"s","username":"ss","fullname":"s","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757539694987}
+13.9.2025, 22:37:13 - INFO - Google Auth attempt
+13.9.2025, 22:37:13 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+13.9.2025, 22:42:37 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+13.9.2025, 22:43:31 - INFO - Google Auth attempt
+13.9.2025, 22:43:31 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+14.9.2025, 19:49:31 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+14.9.2025, 19:49:31 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+14.9.2025, 20:16:22 - ERROR - cannot find homes | MongoServerError: $in needs an array
+14.9.2025, 20:17:27 - ERROR - cannot find homes | MongoServerError: $in needs an array
+14.9.2025, 20:19:52 - ERROR - cannot find homes | MongoServerError: $in needs an array
+14.9.2025, 21:17:58 - INFO - Google Auth attempt
+14.9.2025, 21:17:58 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+14.9.2025, 21:19:10 - ERROR - Failed to signup Error: Email already exists
+14.9.2025, 21:19:17 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+14.9.2025, 21:32:44 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+14.9.2025, 21:32:44 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+14.9.2025, 21:43:00 - INFO - Google Auth attempt
+14.9.2025, 21:43:01 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+14.9.2025, 21:44:32 - INFO - Google Auth attempt
+14.9.2025, 21:44:32 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+14.9.2025, 21:53:57 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+14.9.2025, 22:08:04 - INFO - Google Auth attempt
+14.9.2025, 22:08:04 - INFO - Google Auth successful: | bahar.idan91@gmail.com

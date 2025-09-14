@@ -86,5 +86,8 @@ function _buildCriteria(filterBy) {
     criteria['loc.city'] = { $regex: filterBy.city, $options: 'i' }
   if (filterBy.capacity) criteria.capacity = { $gte: Number(filterBy.capacity) }
 
+  if (filterBy.labels && filterBy.labels.length > 0) {
+    criteria.labels = { $in: filterBy.labels }
+  }
   return criteria
 }

@@ -5,7 +5,9 @@ import { homeService } from './home.service.js'
 import { loggerService } from '../../services/logger.service.js'
 
 export async function getHomes(req, res) {
-  const { city, adults, children, pets, checkIn, checkOut } = req.query
+  console.log('🚀 Backend received query:', req.query) // הוסף את זה
+
+  const { city, adults, children, pets, checkIn, checkOut, labels } = req.query
 
   try {
     const filterBy = {
@@ -14,13 +16,14 @@ export async function getHomes(req, res) {
       pets: pets ?? '',
       checkIn: checkIn ?? '',
       checkOut: checkOut ?? '',
+      labels: labels ? (Array.isArray(labels) ? labels : [labels]) : [],
     }
     const homes = await homeService.query(filterBy)
     res.json(homes)
   } catch (err) {
-  console.error('❌ Controller error:', err)
-  res.status(400).send({ err: 'Cannot get homes', details: err.message })
-}
+    console.error('❌ Controller error:', err)
+    res.status(400).send({ err: 'Cannot get homes', details: err.message })
+  }
 }
 
 export async function getHome(req, res) {
