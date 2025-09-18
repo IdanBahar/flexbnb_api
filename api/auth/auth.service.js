@@ -40,7 +40,7 @@ export async function signup({
   username,
   password,
   fullname,
-  imgUrl,
+  imageUrl,
   isHost,
 }) {
   const collection = await dbService.getCollection('users')
@@ -77,7 +77,7 @@ export async function signup({
     username: username || null,
     password: hash,
     fullname,
-    imgUrl: imgUrl || '',
+    imageUrl: imageUrl || '',
     isHost: !!isHost,
     isAdmin: false,
     likedHomes: [],
@@ -91,7 +91,7 @@ export async function signup({
     email: doc.email,
     username: doc.username,
     fullname: doc.fullname,
-    imgUrl: doc.imgUrl,
+    imageUrl: doc.imageUrl,
     isHost: doc.isHost,
     isAdmin: doc.isAdmin,
     likedHomes: doc.likedHomes,
@@ -120,7 +120,7 @@ async function login({ email, username, password }) {
     email: user.email,
     username: user.username,
     fullname: user.fullname,
-    imgUrl: user.imgUrl,
+    imageUrl: user.imageUrl,
     isHost: user.isHost,
     isAdmin: user.isAdmin,
     likedHomes: user.likedHomes,
@@ -136,7 +136,6 @@ async function googleAuth({ credential }) {
   }
 
   try {
-    // אמת את ה-JWT עם Google
     const ticket = await googleClient.verifyIdToken({
       idToken: credential,
       audience: process.env.GOOGLE_CLIENT_ID,
@@ -144,52 +143,46 @@ async function googleAuth({ credential }) {
 
     const payload = ticket.getPayload()
 
-    // חלץ נתונים מ-Google
     const googleData = {
       email: payload.email,
       fullname: payload.name,
-      imgUrl: payload.picture,
+      imageUrl: payload.picture,
       googleId: payload.sub,
     }
 
-    // בדוק אם המשתמש כבר קיים
     let user = await collection.findOne({ email: googleData.email })
 
     if (user) {
-      // משתמש קיים - עדכן תמונה אם השתנתה
-      if (googleData.imgUrl && user.imgUrl !== googleData.imgUrl) {
+      if (googleData.imageUrl && user.imageUrl !== googleData.imageUrl) {
         await collection.updateOne(
           { _id: user._id },
-          { $set: { imgUrl: googleData.imgUrl } }
+          { $set: { imageUrl: googleData.imageUrl } }
         )
-        user.imgUrl = googleData.imgUrl
+        user.imageUrl = googleData.imageUrl
       }
     } else {
-      // משתמש חדש - צור חשבון
       const newUser = {
         email: googleData.email,
         username: googleData.email.split('@')[0],
         fullname: googleData.fullname,
-        imgUrl: googleData.imgUrl,
+        imageUrl: googleData.imageUrl,
         googleId: googleData.googleId,
         isHost: false,
         isAdmin: false,
         likedHomes: [],
         createdAt: Date.now(),
-        // אין password למשתמשי Google
       }
 
       const { insertedId } = await collection.insertOne(newUser)
       user = { _id: insertedId, ...newUser }
     }
 
-    // החזר משתמש בפורמט הרגיל
     return {
       _id: user._id,
       email: user.email,
       username: user.username,
       fullname: user.fullname,
-      imgUrl: user.imgUrl,
+      imageUrl: user.imageUrl,
       isHost: user.isHost,
       isAdmin: user.isAdmin,
       likedHomes: user.likedHomes,

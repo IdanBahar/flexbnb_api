@@ -169,3 +169,85 @@
 11.9.2025, 12:21:32 - INFO - User login:  | {"_id":"68c2727be535bd6e1ebc9909","email":"bobi@something.com","username":"b","fullname":"bobi bobi","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad57","68bf3a7da4e092bac135ad5f","68bf3a7da4e092bac135ad59"],"createdAt":1757573755460}
 11.9.2025, 14:02:12 - ERROR - Failed to Login Error: Username not found
 11.9.2025, 14:02:17 - INFO - User login:  | {"_id":"68c2727be535bd6e1ebc9909","email":"bobi@something.com","username":"b","fullname":"bobi bobi","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad57","68bf3a7da4e092bac135ad5f","68bf3a7da4e092bac135ad59"],"createdAt":1757573755460}
+14.9.2025, 22:27:22 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+14.9.2025, 22:47:14 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+14.9.2025, 22:48:48 - ERROR - Failed to Login Error: Username not found
+14.9.2025, 22:48:54 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+15.9.2025, 10:08:16 - INFO - Google Auth attempt
+15.9.2025, 10:08:16 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+15.9.2025, 20:19:44 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+15.9.2025, 20:19:47 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:19:47 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 20:20:48 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:20:48 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 20:33:17 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:33:17 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 20:34:21 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:34:21 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 20:35:37 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:35:37 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 20:46:15 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:46:15 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 20:46:29 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 20:46:29 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 22:45:48 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+15.9.2025, 22:45:51 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 22:45:51 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 22:46:20 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 22:46:20 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 22:46:46 - ERROR - while finding user undefined | BSONError: hex string must be 24 characters
+15.9.2025, 22:46:46 - ERROR - Failed to get user | BSONError: hex string must be 24 characters
+15.9.2025, 23:49:02 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+16.9.2025, 13:44:55 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+16.9.2025, 13:50:13 - DEBUG - auth.route - new account created: {"_id":"68c940e508e8fcf40740a07f","email":"idan","username":"idan","fullname":"idan","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758019813545}
+16.9.2025, 13:50:13 - INFO - User signup: | {"_id":"68c940e508e8fcf40740a07f","email":"idan","username":"idan","fullname":"idan","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758019813545}
+16.9.2025, 14:01:10 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":true,"isAdmin":false,"likedHomes":[],"createdAt":1757790268298}
+16.9.2025, 14:03:38 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":true,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757790268298}
+16.9.2025, 14:04:17 - INFO - User login:  | {"_id":"68c940e508e8fcf40740a07f","email":"idan","username":"idan","fullname":"idan","imgUrl":"","isHost":true,"isAdmin":false,"likedHomes":[],"createdAt":1758019813545}
+16.9.2025, 14:04:33 - INFO - Google Auth attempt
+16.9.2025, 14:04:34 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+16.9.2025, 14:07:23 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":true,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757790268298}
+16.9.2025, 14:10:08 - INFO - User login:  | {"_id":"68c940e508e8fcf40740a07f","email":"idan","username":"idan","fullname":"idan","imgUrl":"","isHost":true,"isAdmin":false,"likedHomes":[],"createdAt":1758019813545}
+16.9.2025, 14:10:37 - DEBUG - auth.route - new account created: {"_id":"68c945adfe635dd5fc1477b1","email":"host","username":"host","fullname":"host","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758021037674}
+16.9.2025, 14:10:37 - INFO - User signup: | {"_id":"68c945adfe635dd5fc1477b1","email":"host","username":"host","fullname":"host","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758021037674}
+16.9.2025, 14:10:54 - DEBUG - auth.route - new account created: {"_id":"68c945befe635dd5fc1477b2","email":"travel","username":"travel","fullname":"travel","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758021054277}
+16.9.2025, 14:10:54 - INFO - User signup: | {"_id":"68c945befe635dd5fc1477b2","email":"travel","username":"travel","fullname":"travel","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758021054277}
+16.9.2025, 14:11:30 - INFO - User login:  | {"_id":"68c945adfe635dd5fc1477b1","email":"host","username":"host","fullname":"host","imgUrl":"","isHost":true,"isAdmin":false,"likedHomes":[],"createdAt":1758021037674}
+16.9.2025, 14:29:52 - INFO - User login:  | {"_id":"68c945befe635dd5fc1477b2","email":"travel","username":"travel","fullname":"travel","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758021054277}
+16.9.2025, 14:30:54 - ERROR - Failed to Login Error: Username not found
+16.9.2025, 14:30:57 - ERROR - Failed to Login Error: Username not found
+16.9.2025, 14:31:01 - INFO - User login:  | {"_id":"68c945adfe635dd5fc1477b1","email":"host","username":"host","fullname":"host","imgUrl":"","isHost":true,"isAdmin":false,"likedHomes":[],"createdAt":1758021037674}
+16.9.2025, 14:40:40 - INFO - User login:  | {"_id":"68c945befe635dd5fc1477b2","email":"travel","username":"travel","fullname":"travel","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758021054277}
+16.9.2025, 14:41:37 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","imgUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1757790266/akmozaddoqc5fyu6goum.jpg","isHost":true,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757790268298}
+16.9.2025, 22:13:25 - DEBUG - auth.route - new account created: {"_id":"68c9b6d5c990503c3ce5d1dd","email":"imgi","username":"img","fullname":"img","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050005281}
+16.9.2025, 22:13:25 - INFO - User signup: | {"_id":"68c9b6d5c990503c3ce5d1dd","email":"imgi","username":"img","fullname":"img","imgUrl":"","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050005281}
+16.9.2025, 22:17:21 - DEBUG - auth.route - new account created: {"_id":"68c9b7c139a9c57d62a3599d","email":"111","username":"111","fullname":"111","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050237/ihjvopmtggyvzz89kqg7.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050241117}
+16.9.2025, 22:17:21 - INFO - User signup: | {"_id":"68c9b7c139a9c57d62a3599d","email":"111","username":"111","fullname":"111","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050237/ihjvopmtggyvzz89kqg7.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050241117}
+16.9.2025, 22:17:58 - INFO - User login:  | {"_id":"68c5c03c68e3a15bfed10677","email":"asd","username":"asd","fullname":"asd","isHost":true,"isAdmin":false,"likedHomes":["68bf3a7da4e092bac135ad59"],"createdAt":1757790268298}
+16.9.2025, 22:19:31 - ERROR - Failed to signup Error: Email already exists
+16.9.2025, 22:19:37 - DEBUG - auth.route - new account created: {"_id":"68c9b84939a9c57d62a3599f","email":"squid","username":"s","fullname":"s","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050369/rwslnosvd3uia04dwjlm.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050377751}
+16.9.2025, 22:19:37 - INFO - User signup: | {"_id":"68c9b84939a9c57d62a3599f","email":"squid","username":"s","fullname":"s","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050369/rwslnosvd3uia04dwjlm.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050377751}
+16.9.2025, 22:19:50 - ERROR - Failed to signup Error: Username already exists
+16.9.2025, 22:20:09 - DEBUG - auth.route - new account created: {"_id":"68c9b86939a9c57d62a359a0","email":"b","username":"bob","fullname":"b","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050388/zupalilogznogeuyfowu.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050409104}
+16.9.2025, 22:20:09 - INFO - User signup: | {"_id":"68c9b86939a9c57d62a359a0","email":"b","username":"bob","fullname":"b","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050388/zupalilogznogeuyfowu.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050409104}
+16.9.2025, 22:20:35 - INFO - User login:  | {"_id":"68c1ed6e3663b50efb262426","email":"s","username":"ss","fullname":"s","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757539694987}
+16.9.2025, 22:21:13 - ERROR - Failed to signup Error: Email already exists
+16.9.2025, 22:21:16 - DEBUG - auth.route - new account created: {"_id":"68c9b8ac39a9c57d62a359a2","email":"squid2","username":"squid","fullname":"squid","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050472/ecqzxmnbwkwn6qxvqokd.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050476570}
+16.9.2025, 22:21:16 - INFO - User signup: | {"_id":"68c9b8ac39a9c57d62a359a2","email":"squid2","username":"squid","fullname":"squid","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050472/ecqzxmnbwkwn6qxvqokd.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050476570}
+16.9.2025, 22:32:32 - ERROR - Failed to Login Error: Username not found
+16.9.2025, 22:32:35 - ERROR - Failed to Login Error: Username not found
+16.9.2025, 22:32:41 - INFO - Google Auth attempt
+16.9.2025, 22:32:41 - INFO - Google Auth successful: | bahar.idan91@gmail.com
+16.9.2025, 23:09:10 - ERROR - Failed to Login Error: Username not found
+16.9.2025, 23:09:14 - ERROR - Failed to Login Error: Username not found
+16.9.2025, 23:09:17 - INFO - User login:  | {"_id":"68c9b86939a9c57d62a359a0","email":"b","username":"bob","fullname":"b","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050388/zupalilogznogeuyfowu.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050409104}
+16.9.2025, 23:17:33 - INFO - User login:  | {"_id":"68c9b86939a9c57d62a359a0","email":"b","username":"bob","fullname":"b","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050388/zupalilogznogeuyfowu.jpg","isHost":true,"isAdmin":false,"likedHomes":[],"createdAt":1758050409104}
+16.9.2025, 23:17:42 - ERROR - Failed to Login Error: Username not found
+16.9.2025, 23:17:52 - INFO - User login:  | {"_id":"68c1ed6e3663b50efb262426","email":"s","username":"ss","fullname":"s","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1757539694987}
+16.9.2025, 23:21:24 - ERROR - Failed to signup Error: Email already exists
+16.9.2025, 23:21:33 - ERROR - Failed to Login Error: Incorrect password
+16.9.2025, 23:21:35 - INFO - User login:  | {"_id":"68c9b84939a9c57d62a3599f","email":"squid","username":"s","fullname":"s","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050369/rwslnosvd3uia04dwjlm.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050377751}
+16.9.2025, 23:29:37 - INFO - User login:  | {"_id":"68c9b8ac39a9c57d62a359a2","email":"squid2","username":"squid","fullname":"squid","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050472/ecqzxmnbwkwn6qxvqokd.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050476570}
+17.9.2025, 0:12:09 - INFO - User login:  | {"_id":"68c9b8ac39a9c57d62a359a2","email":"squid2","username":"squid","fullname":"squid","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050472/ecqzxmnbwkwn6qxvqokd.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050476570}
+17.9.2025, 0:17:26 - INFO - User login:  | {"_id":"68c9b8ac39a9c57d62a359a2","email":"squid2","username":"squid","fullname":"squid","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050472/ecqzxmnbwkwn6qxvqokd.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050476570}
+17.9.2025, 20:38:14 - INFO - User login:  | {"_id":"68c9b8ac39a9c57d62a359a2","email":"squid2","username":"squid","fullname":"squid","imageUrl":"https://res.cloudinary.com/dmhwyrnly/image/upload/v1758050472/ecqzxmnbwkwn6qxvqokd.jpg","isHost":false,"isAdmin":false,"likedHomes":[],"createdAt":1758050476570}
