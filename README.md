@@ -1,5 +1,5 @@
 [flexbnbapi_readme.md](https://github.com/user-attachments/files/23027379/flexbnbapi_readme.md)
-# Flexbnb Backend — Node.js & Express API
+# 🏠 Flexbnb Backend — Node.js & Express API
 
 Flexbnb Backend provides the robust server-side foundation for the full-stack Airbnb-inspired platform. It handles authentication, data management, real-time communication, and integrates seamlessly with the frontend to deliver a scalable and maintainable API.
 
