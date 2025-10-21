@@ -46,7 +46,7 @@ npm run dev
 5. The backend API will be available at `http://localhost:8000`
 
 ## Frontend Repository
-🖥️ [Flexbnb Frontend on GitHub]([https://github.com/yourusername/flexbnb-frontend](https://github.com/IdanBahar/flexbnb))
+🖥️ [Flexbnb Frontend on GitHub](https://github.com/IdanBahar/flexbnb)
 
 ## Project Structure
 ```
